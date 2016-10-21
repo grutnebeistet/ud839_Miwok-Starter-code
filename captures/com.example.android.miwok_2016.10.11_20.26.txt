@@ -1,0 +1,40 @@
+Applications Memory Usage (kB):
+Uptime: 107770273 Realtime: 252467047
+
+** MEMINFO in pid 9588 [com.example.android.miwok] **
+                   Pss  Private  Private  Swapped     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------
+  Native Heap        0        0        0        0    12288     9601     2686
+  Dalvik Heap     3714     3596        0     5900    15307     9276     6031
+ Dalvik Other      396      396        0        0                           
+        Stack      320      320        0        0                           
+       Ashmem        8        4        0        0                           
+    Other dev        5        0        4        0                           
+     .so mmap     1262      136      216     3028                           
+    .apk mmap       60        0        0        0                           
+    .ttf mmap       98        0       68        0                           
+    .dex mmap     2832        0     2756        0                           
+    .oat mmap     1650        0      404        0                           
+    .art mmap     2460      756      916        0                           
+   Other mmap      220        4      212        0                           
+   EGL mtrack     2527     2527        0        0                           
+    GL mtrack     5804     5804        0        0                           
+      Unknown     6498     6440        0     1588                           
+        TOTAL    27854    19983     4576    10516    27595    18877     8717
+ 
+ Objects
+               Views:       56         ViewRootImpl:        2
+         AppContexts:        4           Activities:        2
+              Assets:        4        AssetManagers:        4
+       Local Binders:        9        Proxy Binders:       16
+       Parcel memory:        3         Parcel count:       12
+    Death Recipients:        0      OpenSSL Sockets:        0
+ 
+ SQL
+         MEMORY_USED:        0
+  PAGECACHE_OVERFLOW:        0          MALLOC_SIZE:        0
+ 
+ 
+ Asset Allocations
+    zip:/data/data/com.example.android.miwok/files/instant-run/left/resources.ap_:/resources.arsc: 195K
